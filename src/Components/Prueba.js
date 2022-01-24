@@ -6,7 +6,7 @@ const Prueba = ()=> {
   return (   
       <div style={{textAlign:'center', marginTop:30}}>
           <h3>Hola desde Electron</h3>
-          <Button variant='primary' onClick={()=>setSaludo('Hola Mundo')}>Prueba</Button>
+          <Button variant='primary' onClick={()=>setSaludo('Hola Mundo')}>Crear archivo</Button>
           <h5>{saludo}</h5>
       </div>
   );
